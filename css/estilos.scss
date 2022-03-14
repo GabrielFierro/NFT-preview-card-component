@@ -39,5 +39,16 @@ body {
 
 	&-header {
 		width: 100%;
+		border-radius: 8px;
+	}
+
+	&-body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-body-text-date {
+		display: flex;
+		justify-content: space-between;
 	}
 }
