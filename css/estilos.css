@@ -45,5 +45,10 @@ body {
   overflow: hidden;
   -webkit-box-shadow: 5px 5px 10px var(--very-dark-blue-card);
           box-shadow: 5px 5px 10px var(--very-dark-blue-card);
+  padding: 24px;
+}
+
+.card-header {
+  width: 100%;
 }
 /*# sourceMappingURL=estilos.css.map */

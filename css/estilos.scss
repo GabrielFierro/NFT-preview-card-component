@@ -35,4 +35,9 @@ body {
 	border-radius: 16px;
 	overflow: hidden;
 	box-shadow: 5px 5px 10px var(--very-dark-blue-card);
+	padding: 24px;
+
+	&-header {
+		width: 100%;
+	}
 }
