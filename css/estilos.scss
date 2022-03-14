@@ -45,10 +45,10 @@ body {
 	&-body {
 		display: flex;
 		flex-direction: column;
-	}
 
-	&-body-text-date {
-		display: flex;
-		justify-content: space-between;
+		&-text-date {
+			display: flex;
+			justify-content: space-between;
+		}
 	}
 }
