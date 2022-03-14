@@ -9,6 +9,7 @@
 
 html {
 	box-sizing: border-box;
+	font-size: 62.5%; // 1rem = 10px
 }
 *,
 *:before,
@@ -20,3 +21,23 @@ body {
 	font-family: "Outfit", sans-serif;
 	background-color: var(--very-dark-blue-main);
 }
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.card {
+	background-color: var(--very-dark-blue-card);
+	width: 326px;
+	border-radius: 16px;
+	overflow: hidden;
+	box-shadow: 5px 5px 10px var(--very-dark-blue-card);
+}
+
+// .card-header {
+// 	width: 200px;
+// 	height: 200px;
+// }

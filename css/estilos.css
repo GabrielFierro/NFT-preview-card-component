@@ -10,6 +10,7 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 *,
@@ -22,5 +23,27 @@ html {
 body {
   font-family: "Outfit", sans-serif;
   background-color: var(--very-dark-blue-main);
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: var(--very-dark-blue-card);
+  width: 326px;
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 5px 10px var(--very-dark-blue-card);
+          box-shadow: 5px 5px 10px var(--very-dark-blue-card);
 }
 /*# sourceMappingURL=estilos.css.map */
