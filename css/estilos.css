@@ -117,6 +117,10 @@ body .card-body-text-date-sec {
   color: var(--soft-blue);
 }
 
+body .card-body-footer {
+  padding-top: 2rem;
+}
+
 body .card-body-footer-social {
   display: -webkit-box;
   display: -ms-flexbox;
