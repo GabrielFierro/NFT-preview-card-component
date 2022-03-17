@@ -95,10 +95,10 @@ body {
 				&-social {
 					display: flex;
 					img {
-						width: 25px;
-						height: 25px;
+						width: 35px;
+						height: 35px;
 						border-radius: 50%;
-						border-color: hsl(178, 100%, 50%);
+						border: 1px solid var(--white);
 					}
 					span {
 						margin-left: 1rem;

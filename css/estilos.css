@@ -124,10 +124,10 @@ body .card-body-footer-social {
 }
 
 body .card-body-footer-social img {
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
-  border-color: #00fff7;
+  border: 1px solid var(--white);
 }
 
 body .card-body-footer-social span {
