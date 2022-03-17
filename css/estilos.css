@@ -111,6 +111,7 @@ body .card-body-text-date-iconClock {
 
 body .card-body-text-date-eth {
   color: var(--cyan);
+  font-weight: 400;
 }
 
 body .card-body-text-date-sec {
