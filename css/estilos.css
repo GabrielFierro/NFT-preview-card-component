@@ -25,7 +25,7 @@ body {
   background-color: var(--very-dark-blue-main);
 }
 
-.flex {
+body .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -20,13 +20,13 @@ html {
 body {
 	font-family: "Outfit", sans-serif;
 	background-color: var(--very-dark-blue-main);
-}
 
-.flex {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
+	.flex {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+	}
 }
 
 .card {
