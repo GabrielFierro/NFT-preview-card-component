@@ -38,7 +38,7 @@ body .flex {
   height: 100vh;
 }
 
-.card {
+body .card {
   background-color: var(--very-dark-blue-card);
   width: 326px;
   border-radius: 16px;
@@ -48,12 +48,12 @@ body .flex {
   padding: 24px;
 }
 
-.card-header {
+body .card-header {
   width: 100%;
   border-radius: 8px;
 }
 
-.card-body {
+body .card-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,20 +63,20 @@ body .flex {
           flex-direction: column;
 }
 
-.card-body-title {
+body .card-body-title {
   font-size: 2rem;
   color: var(--white);
   padding-top: 5px;
   font-weight: 700;
 }
 
-.card-body-text {
+body .card-body-text {
   font-size: 1.6rem;
   color: var(--soft-blue);
   font-weight: 300;
 }
 
-.card-body-text-date {
+body .card-body-text-date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,32 +85,32 @@ body .flex {
           justify-content: space-between;
 }
 
-.card-body-text-date div {
+body .card-body-text-date div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.card-body-text-date span {
+body .card-body-text-date span {
   padding-left: 5px;
   font-size: 1.4rem;
 }
 
-.card-body-text-date-iconEth {
+body .card-body-text-date-iconEth {
   width: 12px;
   height: 18px;
 }
 
-.card-body-text-date-iconClock {
+body .card-body-text-date-iconClock {
   width: 16px;
   height: 16px;
 }
 
-.card-body-text-date-eth {
+body .card-body-text-date-eth {
   color: var(--cyan);
 }
 
-.card-body-text-date-sec {
+body .card-body-text-date-sec {
   color: var(--soft-blue);
 }
 /*# sourceMappingURL=estilos.css.map */

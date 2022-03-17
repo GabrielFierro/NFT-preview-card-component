@@ -27,64 +27,64 @@ body {
 		justify-content: center;
 		height: 100vh;
 	}
-}
 
-.card {
-	background-color: var(--very-dark-blue-card);
-	width: 326px;
-	border-radius: 16px;
-	overflow: hidden;
-	box-shadow: 5px 5px 10px var(--very-dark-blue-card);
-	padding: 24px;
+	.card {
+		background-color: var(--very-dark-blue-card);
+		width: 326px;
+		border-radius: 16px;
+		overflow: hidden;
+		box-shadow: 5px 5px 10px var(--very-dark-blue-card);
+		padding: 24px;
 
-	&-header {
-		width: 100%;
-		border-radius: 8px;
-	}
-
-	&-body {
-		display: flex;
-		flex-direction: column;
-
-		&-title {
-			font-size: 2rem;
-			color: var(--white);
-			padding-top: 5px;
-			font-weight: 700;
+		&-header {
+			width: 100%;
+			border-radius: 8px;
 		}
 
-		&-text {
-			font-size: 1.6rem;
-			color: var(--soft-blue);
-			font-weight: 300;
+		&-body {
+			display: flex;
+			flex-direction: column;
 
-			&-date {
-				display: flex;
-				justify-content: space-between;
+			&-title {
+				font-size: 2rem;
+				color: var(--white);
+				padding-top: 5px;
+				font-weight: 700;
+			}
 
-				div {
+			&-text {
+				font-size: 1.6rem;
+				color: var(--soft-blue);
+				font-weight: 300;
+
+				&-date {
 					display: flex;
-				}
+					justify-content: space-between;
 
-				span {
-					padding-left: 5px;
-					font-size: 1.4rem;
-				}
+					div {
+						display: flex;
+					}
 
-				&-iconEth {
-					width: 12px;
-					height: 18px;
-				}
-				&-iconClock {
-					width: 16px;
-					height: 16px;
-				}
+					span {
+						padding-left: 5px;
+						font-size: 1.4rem;
+					}
 
-				&-eth {
-					color: var(--cyan);
-				}
-				&-sec {
-					color: var(--soft-blue);
+					&-iconEth {
+						width: 12px;
+						height: 18px;
+					}
+					&-iconClock {
+						width: 16px;
+						height: 16px;
+					}
+
+					&-eth {
+						color: var(--cyan);
+					}
+					&-sec {
+						color: var(--soft-blue);
+					}
 				}
 			}
 		}
