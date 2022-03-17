@@ -43,8 +43,8 @@ body .card {
   width: 326px;
   border-radius: 16px;
   overflow: hidden;
-  -webkit-box-shadow: 5px 5px 10px var(--very-dark-blue-card);
-          box-shadow: 5px 5px 10px var(--very-dark-blue-card);
+  -webkit-box-shadow: 0px 30px 10px var(--very-dark-blue-main), 0px 40px 50px var(--very-dark-blue-card);
+          box-shadow: 0px 30px 10px var(--very-dark-blue-main), 0px 40px 50px var(--very-dark-blue-card);
   padding: 24px;
 }
 
