@@ -61,12 +61,13 @@ body .card-body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-bottom: 1px solid var(--very-dark-blue-line);
 }
 
 body .card-body-title {
   font-size: 2rem;
   color: var(--white);
-  padding-top: 5px;
+  padding-top: 1rem;
   font-weight: 700;
 }
 
@@ -74,6 +75,7 @@ body .card-body-text {
   font-size: 1.6rem;
   color: var(--soft-blue);
   font-weight: 300;
+  padding-bottom: 1rem;
 }
 
 body .card-body-text-date {
@@ -83,6 +85,7 @@ body .card-body-text-date {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 2rem;
 }
 
 body .card-body-text-date div {
@@ -112,5 +115,23 @@ body .card-body-text-date-eth {
 
 body .card-body-text-date-sec {
   color: var(--soft-blue);
+}
+
+body .card-body-footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .card-body-footer-social img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border-color: #00fff7;
+}
+
+body .card-body-footer-social span {
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=estilos.css.map */

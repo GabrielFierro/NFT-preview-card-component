@@ -44,11 +44,12 @@ body {
 		&-body {
 			display: flex;
 			flex-direction: column;
+			border-bottom: 1px solid var(--very-dark-blue-line);
 
 			&-title {
 				font-size: 2rem;
 				color: var(--white);
-				padding-top: 5px;
+				padding-top: 1rem;
 				font-weight: 700;
 			}
 
@@ -56,10 +57,12 @@ body {
 				font-size: 1.6rem;
 				color: var(--soft-blue);
 				font-weight: 300;
+				padding-bottom: 1rem;
 
 				&-date {
 					display: flex;
 					justify-content: space-between;
+					padding-bottom: 2rem;
 
 					div {
 						display: flex;
@@ -84,6 +87,22 @@ body {
 					}
 					&-sec {
 						color: var(--soft-blue);
+					}
+				}
+			}
+
+			&-footer {
+				&-social {
+					display: flex;
+					img {
+						width: 25px;
+						height: 25px;
+						border-radius: 50%;
+						border-color: hsl(178, 100%, 50%);
+					}
+					span {
+						margin-left: 1rem;
+						margin-top: 1rem;
 					}
 				}
 			}
