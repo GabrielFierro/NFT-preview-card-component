@@ -137,5 +137,7 @@ body .card-body-footer-social img {
 body .card-body-footer-social span {
   margin-left: 1rem;
   margin-top: 1rem;
+  font-size: 1.4rem;
+  color: var(--soft-blue);
 }
 /*# sourceMappingURL=estilos.css.map */
