@@ -107,6 +107,11 @@ body {
 						margin-top: 1rem;
 						font-size: 1.4rem;
 						color: var(--soft-blue);
+
+						span {
+							margin-left: 0;
+							color: var(--white);
+						}
 					}
 				}
 			}

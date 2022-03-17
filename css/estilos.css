@@ -140,4 +140,9 @@ body .card-body-footer-social span {
   font-size: 1.4rem;
   color: var(--soft-blue);
 }
+
+body .card-body-footer-social span span {
+  margin-left: 0;
+  color: var(--white);
+}
 /*# sourceMappingURL=estilos.css.map */
