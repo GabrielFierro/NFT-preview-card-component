@@ -71,6 +71,11 @@ body .card-body-title {
   font-weight: 700;
 }
 
+body .card-body-title:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
 body .card-body-text {
   font-size: 1.6rem;
   color: var(--soft-blue);
