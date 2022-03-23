@@ -151,4 +151,9 @@ body .card-body-footer-social span span {
   margin-left: 0;
   color: var(--white);
 }
+
+body .card-body-footer-social span span:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
 /*# sourceMappingURL=estilos.css.map */

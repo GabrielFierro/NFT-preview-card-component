@@ -117,6 +117,10 @@ body {
 						span {
 							margin-left: 0;
 							color: var(--white);
+							&:hover {
+								color: var(--cyan);
+								cursor: pointer;
+							}
 						}
 					}
 				}
