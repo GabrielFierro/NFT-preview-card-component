@@ -48,9 +48,39 @@ body .card {
   padding: 24px;
 }
 
-body .card-header {
+body .card-container {
+  overflow: hidden;
+  position: relative;
+}
+
+body .card-container img {
   width: 100%;
   border-radius: 8px;
+  display: block;
+}
+
+body .card-container-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--cyan);
+  opacity: 0.5;
+  display: none;
+}
+
+body .card-container-overlay img {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .card-container:hover div {
+  display: block;
 }
 
 body .card-body {
