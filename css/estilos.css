@@ -81,6 +81,7 @@ body .card-container-overlay img {
 
 body .card-container:hover div {
   display: block;
+  cursor: pointer;
 }
 
 body .card-body {
